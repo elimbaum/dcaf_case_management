@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.6.6'
+ruby '2.7.2'
 
 # Standard rails
 gem 'rails', '~> 6.0.3.4'
@@ -85,7 +85,7 @@ group :test do
   gem 'timecop'
 
   # Systemtest related tools
-  gem 'capybara', '~> 2.17'
+  gem 'capybara'
   gem 'selenium-webdriver'
   gem 'capybara-screenshot'
   gem 'launchy' # open up capybara screenshots automatically with `save_and_open_screenshot`
